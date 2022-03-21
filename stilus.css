@@ -1,0 +1,58 @@
+img{
+    width: 262px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(245, 245, 220);
+}
+
+button{
+    padding: 0px;
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 5px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+aside{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gorgeto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.kepTarolo{
+    flex: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.kepTarolo img{
+    width: 98%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.gomb button{
+    height: 100%;
+    width: 50px;
+}
